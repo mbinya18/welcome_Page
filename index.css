@@ -1,0 +1,57 @@
+body{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.welcome_container{
+    height: 500px;
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.user_section{
+    display: flex;
+    padding-bottom:50px ;
+}
+h1{
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+#submission{
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+#username{
+    font-size: 25px;
+    padding: 10px;
+}
+#name{
+    border-radius: 5px;
+}
+
+#submission:hover{
+    background-color: hsl(64, 91%, 50%);
+}
+
+
+p{
+    font-size: 20px;
+    text-align: center;
+
+}
